@@ -1,0 +1,12 @@
+#!/bin/sh
+#LJRS -q fast 
+#LJRS -N NLS3
+#LJRS -l nodes=1:ppn=12
+
+cd /export/home/lzhming/HWC/NLS3
+
+ ./NLSsplitting > /export/home/lzhming/HWC/NLS3/RESULT.OUT
+
+
+
+
